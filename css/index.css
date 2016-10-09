@@ -1,0 +1,97 @@
+body, html{
+    font-family: "segoe ui";
+    background: linear-gradient(#f1f1f1, #ffffff);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.header{
+    position: sticky;
+    box-shadow: grey 0 0 20px;
+}
+.brandImage{
+    margin: 0px;
+    color: white;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.searchBox{
+    margin-top: 10px;
+}
+.bg-me{
+    color: white;
+    background: #d35400;
+}
+.branding i{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.branding .logoText{
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 10px;
+    font-family: 'Cookie';
+    letter-spacing: 0px;
+}
+.searchBox .form-control{
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    border-radius: 0px;
+    transition: border-bottom .25s;
+}
+.searchBox .form-control::-webkit-input-placeholder{
+    color: white;
+}
+.searchBox .form-control:focus{
+    border-bottom: 1px dashed white;
+    box-shadow: none;
+}
+.menu{
+    list-style: none;
+    text-align: center;
+}
+.menu p{
+    margin-top: 5px;
+}
+.menu li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    margin-top: 0px;
+    transition: background .25s;
+}
+.menu li:hover{
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+}
+.menu li i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.blackText{
+    margin-top: 10px;
+}
+.shopInfo .container{
+    border-radius: 3px;
+    padding: 20px;
+    background: white;
+    margin-top: 20px;
+    box-shadow: silver 0 1px 3px;
+}
+.shopInfo .row{
+    width: 84%;
+    margin-left: 8%;
+}
+.shopDetails div:not(:first-child){
+    margin-top: 15px;
+}
+.shopDetails a{
+    text-decoration: none;
+    color: #00a1ff;
+}
+.social .text-muted:not(:first-child){
+    margin-left: 20px;
+}

@@ -1,0 +1,40 @@
+.loginBox{
+    cursor: default;
+    padding: 10px;
+    padding-top: 40px;
+    border-radius: 3px;
+    width: 30%;
+    margin: 0px auto;
+    box-shadow: silver 0 0 20px;
+}
+.loginBox .button{
+    background: grey;
+    padding: 8px;
+    margin-top: -6px;
+    margin-right: -5px;
+    transition: background .25s, color .25s;
+}
+.loginBox .button:hover{
+    background: #f1f1f1;
+    color: grey;
+}
+.loginBox .content{
+    padding: 10px;
+}
+.loginBox .closeBtn{
+    cursor: pointer;
+    color: coral;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 100px;
+    text-align: center;
+    transition: background .25s, color .25s;
+}
+.loginBox .closeBtn:hover{
+    color: white;
+    background: coral;
+}
+.loginBox .content{
+    padding: 10px;
+}

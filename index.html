@@ -2,13 +2,104 @@
 <html>
     <head>
         <meta name = "description" charset="utf-8" />
-        <link rel = stylesheet href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel = stylesheet href = "css/bootstrap.css" />
+        <link rel = stylesheet href = "css/index.css" />
+        <link rel = stylesheet href = "css/font-awesome.css" />
+         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cookie" />
+        
+        <script src = "js/jquery.js" ></script>
+        <script src = "js/index.js" ></script>
         <title>
             Sushankhya Website demo
         </title>
     </head>
     <body>
-        
+        <div class = 'wrapper'>
+            <div class ='header'>
+                <div class = 'bg-me container-fluid'>
+                    <div class = 'row container'>
+                        <div class = 'col-md-1'></div>
+                        <div class = 'col-md-2 branding'>
+                            <i class = 'fa fa-shopping-bag pull-left'></i>
+                            <b class = 'pull-left logoText'>eSHOP</b>
+                        </div>
+                        <div class = 'col-md-4'>
+                            <div class = 'form-group searchBox has-feedback feedback-right'>
+                                <input class = 'form-control' placeholder = 'Search food, fashion and more ...'/>
+                                <i class = 'fa fa-search form-control-feedback blackText'></i>
+                            </div>
+                        </div>
+                        <div class = 'col-md-4'>
+                            <ul class = 'menu'>
+                                <li class = 'small'>
+                                    <i class = 'fa fa-home'></i>
+                                    <br />
+                                    <p class = menuText >
+                                        Home
+                                    </p>
+                                </li>
+                                <li class = 'small'>
+                                    <i class = 'fa fa-paw'></i>
+                                    <br />
+                                    <p class = menuText >
+                                        Categories
+                                    </p>
+                                </li>
+                                <li class = 'small'>
+                                    <i class = 'fa fa-heart'></i>
+                                    <br />
+                                    <p class = menuText >
+                                        Trending
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = 'content'>
+                <div class = 'container-fluid shopInfo'>
+                    <div class="container row">
+                        <img src = "imgs/shop.jpg" class="col-md-2 " width="120" />
+                        <div class = 'col-md-4 shopDetails'>
+                            <div class = 'small'>
+                                This item brought to you by:
+                            </div>
+                            <a  href = '#' class = 'shopName'>
+                                <h4>
+                                    Nepal Bazaar Pvt. Ltd.
+                                </h4>
+                            </a>
+                            <div class = 'addInfo'>
+                                Super Market<br />
+                                Biratnagar-15, Mahendra Chowk
+                            </div>
+                            <div class = 'socialInfo'>
+                                <b class = 'text-success'>100</b> Followers
+                            </div>
+                        </div>
+                        <div class = 'col-md-2 map'>
+                        </div>
+                        <div class = 'social col-md-2'>
+                            <div class = 'small'>
+                                Find us on social media:
+                            </div>
+                            <br />
+                            <div>
+                                <i class = 'fa fa-facebook text-muted'></i>
+                                <i class = 'fa fa-twitter text-muted'></i>
+                                <i class = 'fa fa-google-plus text-muted'></i>
+                                <i class = 'fa fa-linkedin text-muted'></i>
+                            </div>
+                            
+                            <br />
+                            <div class="text-left text-danger">
+                                <i class = 'fa fa-heart-o'></i> &nbsp; Add to favoriates
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
