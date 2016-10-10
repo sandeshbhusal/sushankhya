@@ -44,6 +44,9 @@ body, html{
 .searchBox .form-control::-webkit-input-placeholder{
     color: white;
 }
+.searchBox .form-control::-moz-input-placeholder{
+    color: white;
+}
 .searchBox .form-control:focus{
     border-bottom: 1px dashed white;
     box-shadow: none;
