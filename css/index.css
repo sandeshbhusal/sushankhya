@@ -1,4 +1,5 @@
 body, html{
+    overflow-x: hidden;
     font-family: "segoe ui";
     background: linear-gradient(#f1f1f1, #ffffff);
     background-repeat: no-repeat;
@@ -44,7 +45,7 @@ body, html{
 .searchBox .form-control::-webkit-input-placeholder{
     color: white;
 }
-.searchBox .form-control::-moz-input-placeholder{
+.searchBox .form-control::-moz-placeholder{
     color: white;
 }
 .searchBox .form-control:focus{
@@ -97,4 +98,69 @@ body, html{
 }
 .social .text-muted:not(:first-child){
     margin-left: 20px;
+}
+.item .card:hover{
+    transform: scale(1.02);
+    box-shadow: grey 0 4px 8px;
+    cursor: pointer;
+}
+.item{
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.item .card{
+    border-radius: 3px;
+    background: white;
+    box-shadow: silver 0 1px 2px;
+    height: 250px;
+    overflow: hidden;
+    transition: box-shadow .25s, transform .25s;
+}
+.item .card .card-header{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    color: grey;
+    height: 40px;
+}
+.item .card .card-content{
+    height: 170px;
+}
+.card-content .image{
+    height: 10px;
+}
+.itemsHolder .card{
+    margin-left: 20px;
+    background: white;
+}
+.itemsHolder .card .card-header{
+    z-index: 10;
+}
+.itemHolder .card .card-footer{
+    background: white;
+    color: wheat;
+}
+.noRound{
+    text-align: center;
+    outline: none;
+    border-radius: 0px;
+    height: 40px;
+    border: 0px;
+    color: grey;
+    background: white;
+    padding-top: 10px;
+    transition: color .25s, background .25s;
+}
+.noRound:hover{
+    color: coral;
+}
+.card .card-footer .btn:nth-child(2){
+    border-left: 1px solid #d0d0d0;
+}
+.card-content{
+    text-align: center;
+}
+.card-content img{
+    margin: 0px auto;
+    height: 170px;
 }
